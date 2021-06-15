@@ -1,0 +1,44 @@
+.footerContainer {
+    background: #353535;
+    height: 10rem;
+    position: relative;
+    margin-top: 50px;
+}
+
+.footerContainer .logo {
+    position: relative;
+    width: 150px;
+    z-index: 2;
+    left: 200px;
+    top: 20px;
+}
+
+.footerContainer .itemsFooter {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.footerContainer ul li {
+    display: inline;
+    font-weight: 600;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+    .footerContainer .logo {
+        position: relative;
+        width: 150px;
+        z-index: 2;
+        left: 0;
+        top: 20px;
+    }
+}

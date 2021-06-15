@@ -1,0 +1,47 @@
+.btnCart {
+    background: black;
+    border-radius: 10px;
+    border: 2px solid #ed1e79;
+    color: #ed1e79;
+    padding-left: 13px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.modalContent {
+    justify-content: center;
+}
+
+.cartIcon {
+    margin-right: 6px;
+    fill: #ed1e79;
+}
+
+.addedOne {
+    transform: scale(1.1);
+    background: rgb(139, 4, 169)
+}
+
+.itemCart {
+    margin-bottom: 15px;
+}
+
+.totalCart {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.buttonCloseCart {
+    background: black;
+    border-radius: 10px;
+    border: 2px solid #ed1e79;
+    color: #ed1e79;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    cursor: pointer;
+}

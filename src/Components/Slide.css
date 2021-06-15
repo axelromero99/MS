@@ -1,0 +1,7 @@
+.carousel .control-dots {
+    z-index: 0;
+}
+
+.carousel .carousel-status {
+    display: none;
+}

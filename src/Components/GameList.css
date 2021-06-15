@@ -1,0 +1,141 @@
+.gameCardContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.gameCard {
+    position: relative;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 15rem;
+    margin: 5rem;
+    height: 20rem;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gameCard h3 {
+    margin: 0;
+}
+
+.isAdded {
+    position: absolute;
+    top: 40px;
+}
+
+.gameCard .thumb {
+    width: 100%;
+}
+
+.gameCard .off {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+.gameCard .off>div {
+    position: absolute;
+    font-size: 0.8rem;
+    top: 22px;
+    right: 9px;
+    color: white;
+}
+
+#circle {
+    background: red;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.gameCard .star>img {
+    width: 3rem;
+}
+
+.gameCard:hover {
+    border: 3px solid #e71d76;
+}
+
+.gameCard .steamReview {
+    text-align: center;
+}
+
+.gameCard button {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #f99c38 0%, #db175f 51%, #83019b 100%);
+}
+
+.gameCard .normalPrice {
+    font-size: 0.9rem;
+}
+
+.gameCard .salePrice {
+    font-weight: 700;
+}
+
+.searchBarContainer {
+    text-align: center;
+}
+
+.searchBar {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid #ed1e79;
+    outline: none;
+    font-weight: 700;
+    margin-top: 50px;
+    width: 400px;
+    padding: 10px;
+    height: 30px;
+}
+
+.isLoading {
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 300px;
+    background: black;
+    color: white;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:1218px) {
+    .gameCardContainer {
+        padding: 0px;
+    }
+    .gameCard {
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .gameCard {
+        margin: 0px;
+    }
+    .searchBar {
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        border: 2px solid #ed1e79;
+        outline: none;
+        font-weight: 700;
+        margin-top: 50px;
+        width: 200px;
+        padding: 10px;
+        height: 30px;
+    }
+}
